@@ -1,48 +1,34 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/KepKNfCK)
-# Road Lane Detection
+# Lane Detection Project
 
-## Model based lane detection
+Lane Detection Project is a Python script designed for detecting and visualizing lane lines in a sequence of images extracted from a video feed. The script employs edge detection techniques, Hough Transform, and line averaging to identify and display lane lines on the road.
 
-Find two line models of lane markers, one from the left size and the other from the right side of the current vehicle.
+## Table of Contents
+- [Overview](#overview)
+- [Key Features](#key-features)
+- [Dependencies](#dependencies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [Results](#results)
+- [Contributing](#contributing)
+- [License](#license)
 
-![image](https://user-images.githubusercontent.com/7046889/198094792-7992c1e4-3729-4484-9b03-beb5a606380b.png)
+## Overview
+The project focuses on automating the process of lane detection for video data. It incorporates image processing techniques, including Sobel edge detection and the Hough Transform, to identify potential lane lines. The script processes each frame of the video, applies filtering and averaging to obtain the left and right lane lines, and visualizes the result.
 
-To simplify the detection problem, we assume the following constraints
-   1. Only two lane markers will be detected (line1, line2)
-   2. Only interest area below of certain ```y``` value will be processed. 
-   3. Line1 has negative slope (-0.5~-1.5), while line2 has positive slope (0.5~1.5).
+## Key Features
+- **Edge Detection:** Utilizes Sobel edge detection to enhance edges in the input images.
+- **Hough Transform:** Applies the Hough Transform to identify lines in polar coordinates.
+- **Lane Averaging:** Averages the slopes and intercepts of the left and right lane lines for robust detection.
+- **Visualization:** Generates visualizations of detected lanes and an output video illustrating the lane detection process.
 
-![image](https://user-images.githubusercontent.com/7046889/198095755-b81086c1-c90c-4886-adcf-5b4880b38654.png)
+## Dependencies
+- Python 3.x
+- OpenCV (`cv2`)
+- NumPy
 
-## Detection steps
-
-  1. Convert an input image to a grayscale image
-  2. Apply Sobel edge detection algorithm 
-
-![image](https://user-images.githubusercontent.com/7046889/198096068-dab3c791-bfbb-411a-b7a5-4781c2003d26.png)
-
-  3. From the vehicle’s current center (x position), search the first edge pixel in each left and right direction (Do it in all scanlines). The edge angle of the first edge pixel from the vehicle center is 0 degree in the right side, and 180 degree in the left side. 
-
-![image](https://user-images.githubusercontent.com/7046889/198096585-dc5da48f-783d-4034-a773-09300083cd01.png)
-![image](https://user-images.githubusercontent.com/7046889/198097149-60a57e94-0743-4019-9ccc-bb678cd82dac.png)
-
-  4. Using the edge pixels, apply the Hough transform to determine the two line models.
-  
-![image](https://user-images.githubusercontent.com/7046889/198097248-cef4a660-dbdd-444d-80a3-a33b26c52082.png)
-
-  5. Draw two lines over the original road image. At the intersection of the lines, draw a circle which represents the vanishing point.  Draw the two lines from the image border to the vanishing point.  
-  
-![image](https://user-images.githubusercontent.com/7046889/198098128-2db5a1b4-491b-4231-a814-1aef0157fbb1.png)
-
-  6. Apply the same lane detection algorithm to other video frames. 
-  
-  
-## Submissions 
-
-Due: 20 December 19:30 h
-
-Submission: Source codes, report explaing the code and including input and output images, video file for two test sets. 
-
-
-
-  
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/lane-detection-project.git
+   cd lane-detection-project
