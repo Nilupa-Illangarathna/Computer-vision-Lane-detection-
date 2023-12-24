@@ -60,6 +60,10 @@ The project focuses on automating the process of lane detection for video data. 
   - **TestVideo_2/**
     - *(Similar structure as TestVideo_1)*
   - ...
+- **input/**
+  - **TestVideo_1/**
+   - *frame_0000.bmp*
+   - *frame_0001.bmp*
 
 ## Results
 Visualized images and output videos are saved in the respective folders within the `outputs` directory. The folder structure is organized to provide a step-by-step view of the image processing pipeline, from loading and preprocessing to final lane visualization.
