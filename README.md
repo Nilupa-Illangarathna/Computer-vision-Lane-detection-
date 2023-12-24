@@ -32,3 +32,35 @@ The project focuses on automating the process of lane detection for video data. 
    ```bash
    [git clone https://github.com/your-username/lane-detection-project.git
    cd lane-detection-project](https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git)https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git
+
+
+## Folder Structure
+- **outputs/**
+  - **TestVideo_1/**
+    - **01_Loaded_images/**
+      - *Example_Image_1_Loaded.bmp*
+      - *Example_Image_2_Loaded.bmp*
+      - ...
+    - **02_Grey_Scaled_images/**
+      - *Example_Image_1_Grey_Scaled.bmp*
+      - *Example_Image_2_Grey_Scaled.bmp*
+      - ...
+    - **03_Sobel_edge_detected_images/**
+      - *Example_Image_1_Sobel_Edge_Detected.bmp*
+      - *Example_Image_2_Sobel_Edge_Detected.bmp*
+      - ...
+    - **04_EdgePixelFound_images/**
+      - *Example_Image_1_Edge_Pixel_Found.bmp*
+      - *Example_Image_2_Edge_Pixel_Found.bmp*
+      - ...
+    - **05_Visualized_Result/**
+      - *Example_Image_1_Visualized_Result.bmp*
+      - *Example_Image_2_Visualized_Result.bmp*
+      - ...
+  - **TestVideo_2/**
+    - *(Similar structure as TestVideo_1)*
+  - ...
+
+## Results
+Visualized images and output videos are saved in the respective folders within the `outputs` directory. The folder structure is organized to provide a step-by-step view of the image processing pipeline, from loading and preprocessing to final lane visualization.
+
