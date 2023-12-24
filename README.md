@@ -33,6 +33,20 @@ The project focuses on automating the process of lane detection for video data. 
    [git clone https://github.com/your-username/lane-detection-project.git
    cd lane-detection-project](https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git)https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git
 
+## Methodology
+
+<table>
+  <tr>
+    <td> </td>
+     <td> </td>
+     <td> </td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-/assets/95247831/e214df76-6bde-4ed1-af86-b3b89fc299f1" width=300></td>
+    <td><img src="https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-/assets/95247831/53e770a0-04e8-4ea9-a6c0-3a654a43ef92" width=300></td>
+    <td><img src="https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-/assets/95247831/2cfd4412-a55f-4927-85f9-55632d4b51fc" width=300></td>
+  </tr>
+ </table>
 
 ## Folder Structure
 - **outputs/**
