@@ -30,5 +30,5 @@ The project focuses on automating the process of lane detection for video data. 
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/lane-detection-project.git
-   cd lane-detection-project
+   [git clone https://github.com/your-username/lane-detection-project.git
+   cd lane-detection-project](https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git)https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-.git
