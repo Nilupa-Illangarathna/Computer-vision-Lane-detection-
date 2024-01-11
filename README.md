@@ -74,3 +74,10 @@ The project focuses on automating the process of lane detection for video data. 
 ## Results
 Visualized images and output videos are saved in the respective folders within the `outputs` directory. The folder structure is organized to provide a step-by-step view of the image processing pipeline, from loading and preprocessing to final lane visualization.
 
+https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-/assets/95247831/e6d8860a-1501-4a9c-8a56-d2b8e4e19aff
+
+
+
+https://github.com/Nilupa-Illangarathna/Computer-vision-Lane-detection-/assets/95247831/cd0ea0ea-7f2f-4e77-ad3e-fcdcf3d82261
+
+
